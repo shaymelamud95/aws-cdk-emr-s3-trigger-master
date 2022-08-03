@@ -1,0 +1,16 @@
+{
+  "config": {
+    "bucket": {
+      "source": "my-emr-source453354354",
+      "destination": "my-emr-b-destination6486",
+      "job": "my-job-465564"
+    },
+    "job": {
+      "file": "SparkSimpleJob-1.0.0.jar"
+    },
+    "deploy": {
+      "version": "1",
+      "environment": "dev"
+    }
+  }
+}
